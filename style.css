@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 400px;
+  margin: 0 auto 10px auto;
+  padding: 10px;
+}
+
+.card:hover {
+  cursor: grab;
+}
+
+.sortable-chosen {
+  border: 2px solid #333;
+}
+
+.sortable-drag {
+  color: red;
+}
